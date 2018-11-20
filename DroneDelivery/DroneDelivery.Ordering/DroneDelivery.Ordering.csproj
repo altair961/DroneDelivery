@@ -32,6 +32,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Entity.cs" />
+    <Compile Include="EventSourcedAggregate.cs" />
+    <Compile Include="IEventStore.cs" />
     <Compile Include="OrderMaker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
